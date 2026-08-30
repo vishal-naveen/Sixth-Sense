@@ -1,0 +1,25 @@
+Sixth Sense — third-party components
+====================================
+
+The MIT License in LICENSE applies to the application source authored in this
+repository. It does not apply to the component below.
+
+SixthSense/yolov8n.mlmodel
+--------------------------
+Ultralytics YOLOv8n, exported to Core ML.
+  Ultralytics version : 8.0.98
+  Training data       : coco.yaml (stock COCO weights, not fine-tuned)
+  License             : AGPL-3.0
+
+  https://github.com/ultralytics/ultralytics
+  https://www.ultralytics.com/license
+
+This file retains its own AGPL-3.0 terms. Distributing a closed-source
+application built on these weights would require a commercial license from
+Ultralytics.
+
+Project scaffold
+----------------
+This project began from Brian Voong's "SmartCameraLBTA" Core ML tutorial
+project (Let's Build That App, https://www.letsbuildthatapp.com). The camera
+pipeline grew out of that starting point.

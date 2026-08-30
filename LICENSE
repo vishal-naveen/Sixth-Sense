@@ -19,23 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
----
-
-THIRD-PARTY COMPONENTS
-
-The MIT license above applies to the application source authored in this
-repository. It does not apply to the following bundled component:
-
-  SixthSense/yolov8n.mlmodel
-      Ultralytics YOLOv8n, exported to Core ML (Ultralytics 8.0.98,
-      trained on coco.yaml). Licensed under AGPL-3.0.
-      https://github.com/ultralytics/ultralytics
-      https://www.ultralytics.com/license
-
-      This file retains its own AGPL-3.0 terms. Distributing a
-      closed-source application built on these weights would require a
-      commercial license from Ultralytics.
-
-The project scaffold originated from Brian Voong's "SmartCameraLBTA" Core ML
-tutorial project (Let's Build That App, https://www.letsbuildthatapp.com).
