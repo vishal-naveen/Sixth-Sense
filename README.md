@@ -191,5 +191,5 @@ The application source in this repository is released under the [MIT License](LI
 
 **The bundled model is not.** `SixthSense/yolov8n.mlmodel` is an Ultralytics YOLOv8n export
 and carries **AGPL-3.0**, as recorded in its own metadata. MIT covers my code only; the
-model retains its own terms. Distributing a closed-source app built on these weights would
-require a commercial license from Ultralytics — worth knowing before shipping this anywhere.
+model retains its own terms; see [NOTICE](NOTICE). Distributing a closed-source app built on these
+weights would require a commercial license from Ultralytics — worth knowing before shipping this.
