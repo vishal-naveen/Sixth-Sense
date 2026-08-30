@@ -28,11 +28,18 @@ ahead, how far away it is, and which side it is on — *"chair, 1.9 meters, left
 
 <div align="center">
 
-| Obstacle detection | Distance + bearing | Route recording | Turn-by-turn |
+| Obstacle detection | The same, near-dark | Recording a route | Turn-by-turn replay |
 |:---:|:---:|:---:|:---:|
-| <img src="docs/media/detection-bicycle.jpg" width="200"> | <img src="docs/media/detection-cars.jpg" width="200"> | <img src="docs/media/mapping.jpg" width="200"> | <img src="docs/media/navigation.jpg" width="200"> |
+| <img src="docs/media/detection-indoor.jpg" width="200"> | <img src="docs/media/detection-dark.jpg" width="200"> | <img src="docs/media/mapping.jpg" width="200"> | <img src="docs/media/navigation.jpg" width="200"> |
 
-*Real screenshots, October 2024. Detection works at night; the app can drive the torch in darkness.*
+*Unretouched captures, October 2024, iPhone 14 Pro.* Detection reports class, confidence,
+distance, and bearing — `chair: 91% · 4.12 m · −12.30° (Left)` — and still works in a room
+with the lights off, where the app can drive the torch. The recording screen's log shows the
+route model directly: *waypoint ended · distance travelled 113.58 cm · angle moved 86.26° left
+· next waypoint · reset to 0.*
+
+> These frames come from the **October 2024 build**, the same one in the demo video — not from
+> the source published here. See [Honest status](#honest-status).
 
 </div>
 
